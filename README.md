@@ -73,6 +73,13 @@ python -m unittest discover -s tests -v
 ```
 
 ---
+### 5. Single Black-Box Tests (TC01–TC15)
+
+```bash
+cd hostel_complaint_system
+python tests/test_blackbox_demo.py
+```
+
 
 ## Use Case: UC-02 Register Complaint
 
