@@ -8,14 +8,11 @@ hostel_complaint_system/
 ├── main.py                        ← CLI entry point (run the app)
 ├── README.md
 ├── database/
-│   ├── __init__.py
 │   └── models.py                  ← SQLite schema & seed data
 ├── app/
-│   ├── __init__.py
 │   ├── auth.py                    ← Login / logout / session
 │   └── complaint_service.py       ← Register & check complaint logic
 └── tests/
-    ├── __init__.py
     ├── test_blackbox.py           ← TC01–TC15 (from xlsx)
     └── test_whitebox.py           ← WB01–WB15 (branch/path coverage)
 ```
